@@ -1,4 +1,3 @@
-# group_15
 
 ### Setup the repository
 
