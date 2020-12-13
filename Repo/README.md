@@ -64,8 +64,6 @@ The container registry.
 https://git.chalmers.se/courses/dit638/students/group_15/container_registry
 
 #### Authors
-*  Hassan Mualla
+
 *  Carl Vågfelt Nihlmar
 *  Jawad Mofti
-*  Lema Rassul
-
