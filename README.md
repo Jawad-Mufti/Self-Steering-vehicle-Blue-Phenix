@@ -1,12 +1,4 @@
 
-### Setup the repository
-
-Open terminal and move to the desired location to set up the repository.
-Paste the following command to clone the repository:
-
-```
-$ git clone https://git.chalmers.se/courses/dit638/students/group_15.git
-```
 
 ### Build the project
 Adhere to the following steps:
