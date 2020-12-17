@@ -138,7 +138,7 @@ cv::putText(img, //target image
           cv::Point(500, 50), //top-left position
             cv::FONT_HERSHEY_PLAIN,
               1.0,
-               CV_RGB(255, 255, 255), //font color
+               CV_RGB(255, 233, 255), //font color
                2);
 
                 // TODO: Do something with the frame.
