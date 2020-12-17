@@ -131,7 +131,30 @@ int32_t main(int32_t argc, char **argv) {
 
   
 //////////////////////////////////////////////////////////////////////////////////////////////////////
+string result = "j";
+//"time now "+strDate+"-"+strMonth+"-"+strday+"T"+strHour+":"+strMinutes+":" +strSeconds+"ts "+v+";... Mohammed Jawad Mofti";
+cv::putText(img, //target image
+           result, //text
+          cv::Point(500, 50), //top-left position
+            cv::FONT_HERSHEY_PLAIN,
+              1.0,
+               CV_RGB(255, 255, 255), //font color
+               2);
 
+                // TODO: Do something with the frame.
+                // Example: Draw a red rectangle and display image
+
+
+
+
+std::cout <<" jawad wanna print this ; "<< tstampz<< " ; "<< tresult <<std::endl;
+
+//<< v << " sample time stamp ; "
+
+
+
+
+//cvPutText (img, text, cvPoint(200,400), font, cvScalar(255,255,0));
 
                 cv::rectangle(img, cv::Point(50, 50), cv::Point(100, 100), cv::Scalar(0,0,255));
 
