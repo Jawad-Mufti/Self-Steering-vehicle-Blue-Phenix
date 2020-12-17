@@ -149,7 +149,7 @@ cv::putText(img, //target image
 
 std::cout <<" jawad wanna print this ; "<< tstampz<< " ; "<< tresult <<std::endl;
 
-//<< v << " sample time stamp ; "
+<< v << " sample time stamp ; "
 
 
 
