@@ -137,7 +137,9 @@ int date = now->tm_year + 1900;
 int seconds = now->tm_sec; 
 
 
- //string str1= to_string(i);  
+ //string str1= to_string(i); 
+             
+            // here we are converting numbers to strings in order to display them on the screen.
  string strDate= to_string(date);  
  string strMonth= to_string(month);  
  string strday= to_string(day);  
