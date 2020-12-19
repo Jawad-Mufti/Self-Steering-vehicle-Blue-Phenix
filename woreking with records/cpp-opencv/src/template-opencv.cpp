@@ -128,7 +128,24 @@ int32_t main(int32_t argc, char **argv) {
             while (od4.isRunning()) {
 
 
+int date = now->tm_year + 1900;
+ // std::cout << date <<"\n" ;
+  int month = (now->tm_mon + 1);
+  int day = now->tm_mday ;
+  int hour = (now->tm_hour +1);
+  int minutes = now->tm_min ;
+int seconds = now->tm_sec; 
 
+
+ //string str1= to_string(i);  
+ string strDate= to_string(date);  
+ string strMonth= to_string(month);  
+ string strday= to_string(day);  
+  string strHour= to_string(hour);  
+  string strMinutes= to_string(minutes); 
+  string strSeconds= to_string(seconds); 
+  string v = to_string(vTime);
+ 
   
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 string result = "j";
@@ -147,7 +164,7 @@ cv::putText(img, //target image
 
 
 
-std::cout <<" jawad wanna print this ; "<< tstampz<< " ; "<< tresult <<std::endl;
+std::cout <<" wanna print this ; "<< tstampz<< " ; "<< tresult <<std::endl;
 
 << v << " sample time stamp ; "
 
