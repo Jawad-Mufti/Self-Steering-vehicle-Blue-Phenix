@@ -1,8 +1,8 @@
 
 
 ### Build the project
-Processing image data with OpenCV using C++
-This C++-template demonstrates how to develop a software module to process video data (eg., image detection, etc.) to be used with Kiwi.
+Processing image data with OpenCV using C++ and cluon to to process video frames from a rec. file that is supposed to be taken from a camera that records the lane in which 
+the mini car is driving for the porpose of detecting the lane and boundaries to get the right steering angles per fram to perform self-automation in steering.
 
 ### Prerequisites:
 
