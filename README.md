@@ -4,24 +4,22 @@
 Processing image data with OpenCV using C++
 This C++-template demonstrates how to develop a software module to process video data (eg., image detection, etc.) to be used with Kiwi.
 
-Prerequisites:
+### Prerequisites:
 
 You need to install Docker for your platform
 You need to install docker-compose
 You have a recording file (.rec).
 Building and testing the software module for your laptop (replay mode)
 This template folder contains everything you need to compile and run a C++ software component that uses OpenCV for image processing. We are using Docker to build and run the resulting binary.
-Processing image data with OpenCV using C++
-This C++-template demonstrates how to develop a software module to process video data (eg., image detection, etc.) to be used with Kiwi.
 
-Prerequisites:
+
 Step 1: Assuming that you have a folder ~/recordings, where you have at least one .rec file from your experiments with Kiwi.
 
 Step 2: Clone this repository:
 
 cd $HOME
 git clone git@github.com:Jawad-Mufti/Self-Steering-vehicle-Blue-Phenix.git
-cd template/example_video
+cd template/working_with_records/cpp-opencv/src
 Step 3: Now, you can start the h264 decoder and webapp for replaying as follows (the actual h264 decoder is built once during the first call):
 docker-compose -f h264-decoder-viewer.yml up
 
