@@ -8,7 +8,7 @@ Prerequisites:
 
 You need to install Docker for your platform
 You need to install docker-compose
-You have a recording file (.rec) with some video frames.
+You have a recording file (.rec).
 Building and testing the software module for your laptop (replay mode)
 This template folder contains everything you need to compile and run a C++ software component that uses OpenCV for image processing. We are using Docker to build and run the resulting binary.
 Processing image data with OpenCV using C++
@@ -20,7 +20,7 @@ Step 1: Assuming that you have a folder ~/recordings, where you have at least on
 Step 2: Clone this repository:
 
 cd $HOME
-git clone 
+git clone git@github.com:Jawad-Mufti/Self-Steering-vehicle-Blue-Phenix.git
 cd template/example_video
 Step 3: Now, you can start the h264 decoder and webapp for replaying as follows (the actual h264 decoder is built once during the first call):
 docker-compose -f h264-decoder-viewer.yml up
@@ -31,6 +31,7 @@ docker-compose -f h264-decoder-viewer.yml up
 * CMake Tools
 * Git
 * Visual Studio
+
 
 
 ### Addition of features
