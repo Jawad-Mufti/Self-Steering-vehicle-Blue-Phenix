@@ -27,7 +27,8 @@ docker-compose -f h264-decoder-viewer.yml up
 
 ### Tools
 * Docker
-*cluon library (from chalmers)  more instructions to work with cluon and opendlv : 
+
+* cluon library (from chalmers)  more instructions to work with cluon and opendlv :  https://github.com/chalmers-revere/opendlv-device-ps3controller
 * C formatting tools
 * CMake Tools
 * Git
