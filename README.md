@@ -21,8 +21,9 @@ Step 2: Clone this repository:
 git clone git@github.com:Jawad-Mufti/Self-Steering-vehicle-Blue-Phenix.git
 cd template/working_with_records/cpp-opencv/src
 ```
-Step 3: Now, you can start the h264 decoder and webapp for replaying as follows (the actual h264 decoder is built once during the first call):
-docker-compose -f h264-decoder-viewer.yml up
+Step 3:
+Now, you can start the h264 decoder and webapp for replaying as follows (the actual h264 decoder is built once during the first call):
+``` docker-compose -f h264-decoder-viewer.yml up```
 
 ### Tools
 * Docker
