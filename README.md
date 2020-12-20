@@ -1,22 +1,18 @@
 
 
 ### Build the project
-Adhere to the following steps:
-```
-$ mkdir build
-```
-```
-$ cd build
-```
-```
-$ cmake ..
-```
-```
-$ make
-```
-```
-$ make test
-```
+Processing image data with OpenCV using C++
+This C++-template demonstrates how to develop a software module to process video data (eg., image detection, etc.) to be used with Kiwi.
+
+Prerequisites:
+
+You need to install Docker for your platform
+You need to install docker-compose
+You have a recording file (.rec) with some video frames.
+Building and testing the software module for your laptop (replay mode)
+This template folder contains everything you need to compile and run a C++ software component that uses OpenCV for image processing. We are using Docker to build and run the resulting binary.
+
+
 
 ### Tools
 * Docker
