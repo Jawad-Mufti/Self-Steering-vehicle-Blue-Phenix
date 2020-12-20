@@ -20,7 +20,7 @@ Step 1: Assuming that you have a folder ~/recordings, where you have at least on
 Step 2: Clone this repository:
 
 cd $HOME
-git clone https://git.ita.chalmers.se/courses/dit638/students/template
+git clone 
 cd template/example_video
 Step 3: Now, you can start the h264 decoder and webapp for replaying as follows (the actual h264 decoder is built once during the first call):
 docker-compose -f h264-decoder-viewer.yml up
