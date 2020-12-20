@@ -28,7 +28,7 @@ docker-compose -f h264-decoder-viewer.yml up
 
 * cluon library (from chalmers)  more instructions to work with cluon and opendlv :  https://github.com/chalmers-revere/opendlv-device-ps3controller
 * C formatting tools
-* CMake Tools
+* CMake 
 * Git
 * Visual Studio
 
@@ -50,17 +50,11 @@ failing test case in the master branch:
 
 https://git.chalmers.se/courses/dit638/students/group_15/-/jobs/27731
 
-failing test case in a branch :
-
-https://git.chalmers.se/courses/dit638/students/group_15/-/jobs/27733
-
 passing new release :
 
 https://git.chalmers.se/courses/dit638/students/group_15/-/jobs/27729
 
-The container registry.
 
-https://git.chalmers.se/courses/dit638/students/group_15/container_registry
 
 #### Authors
 
