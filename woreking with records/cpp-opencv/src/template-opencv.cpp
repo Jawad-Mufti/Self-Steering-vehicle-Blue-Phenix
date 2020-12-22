@@ -128,6 +128,7 @@ int32_t main(int32_t argc, char **argv) {
             while (od4.isRunning()) {
              
 
+  int vTime = cluon::time::toMicroseconds(timeStampInfo.second);
 
   // The current time can ge queried as follows:
     before = cluon::time::now();
