@@ -127,6 +127,12 @@ int32_t main(int32_t argc, char **argv) {
             // Endless loop; end the program by pressing Ctrl-C.
             while (od4.isRunning()) {
              
+
+
+  // The current time can ge queried as follows:
+    before = cluon::time::now();
+             
+             
              
              
              // Just wait a little for this example.
