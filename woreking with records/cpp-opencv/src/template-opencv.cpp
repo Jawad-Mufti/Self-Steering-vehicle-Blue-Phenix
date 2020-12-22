@@ -126,6 +126,21 @@ int32_t main(int32_t argc, char **argv) {
 
             // Endless loop; end the program by pressing Ctrl-C.
             while (od4.isRunning()) {
+             
+             
+             
+             
+        
+    // Now, we initialize "after" directly on creation.
+// int i = cluon::time:: toMicroseconds (before);  
+    
+std::time_t t = std::time(0);   // get time now
+    std::tm* now = std::localtime(&t);
+   
+
+   
+     
+             
 
 
 int date = now->tm_year + 1900;
