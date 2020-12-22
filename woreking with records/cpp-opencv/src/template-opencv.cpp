@@ -129,7 +129,8 @@ int32_t main(int32_t argc, char **argv) {
              
              
              
-             
+             // Just wait a little for this example.
+   using namespace std::literals::chrono_literals;
         
     // Now, we initialize "after" directly on creation.
 // int i = cluon::time:: toMicroseconds (before);  
