@@ -42,7 +42,7 @@ float cordinateYellowX;
 
 
 
-  const float RIGHT_TURN{(float)-0.290888};
+  const float RIGHT_TURN{(float)-0.2908};
     const float RIGHT_TURN_new{(float)-0.1259535};
 
     const float MINOR_RIGHT_TURN2{(float)-0.15};
