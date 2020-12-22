@@ -52,7 +52,7 @@ float cordinateYellowX;
             const float MINOR_LEFT_TURNEX{(float)0.06298564};
 
       const float MINOR_LEFT_TURN2{(float)0.1208};
-      const float MINOR_LEFT_TURN3{(float)0.0508};
+      const float MINOR_LEFT_TURN3{(float)0.05088};
 
 
 
