@@ -115,9 +115,7 @@ int32_t main(int32_t argc, char **argv) {
          // std::stringstream ss;
               //  ss << "Now: " << env.sampleTimeStamp().seconds() << "." << env.sampleTimeStamp().microseconds() << "; ts: ";
                // std::string s = ss.str();
-        // const  char*   ts = env.sampleTimeStamp().seconds()+"."+ env.sampleTimeStamp().microseconds();
-        //       std::string s = ts;
-
+       
 
                   };
 
