@@ -6,6 +6,7 @@ With the use of OpenCV , C++ and cluon to process video image frames from a rec.
 
 ### Prerequisites:
 
+- This project is most likly to only work on linux operating systems or any simulation of a linux system.
 - You need to install Docker for your platform
 - You need to install docker-compose
  - You have a recording file (.rec).
