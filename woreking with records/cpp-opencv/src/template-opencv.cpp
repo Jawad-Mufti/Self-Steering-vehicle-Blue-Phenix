@@ -125,6 +125,11 @@ int32_t main(int32_t argc, char **argv) {
              
              
              
+             
+             
+              imshow( "imgColorSpace",contourImage );
+///std::cout << s << std::endl;
+                cluon::data::TimeStamp before;
                cluon::data::TimeStamp timeNow{cluon::time::now()};
                 //int64_t microTime= cluon::time::toMicroseconds(timeNow);
              
