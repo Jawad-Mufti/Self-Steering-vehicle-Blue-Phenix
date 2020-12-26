@@ -6,11 +6,12 @@ With the use of OpenCV , C++ and cluon to process video image frames from a rec.
 
 ### Prerequisites:
 
-You need to install Docker for your platform
-You need to install docker-compose
-You have a recording file (.rec).
-Building and testing the software module for your laptop (replay mode)
-This template folder contains everything you need to compile and run a C++ software component that uses OpenCV for image processing. We are using Docker to build and run the resulting binary.
+- You need to install Docker for your platform
+- You need to install docker-compose
+ - You have a recording file (.rec).
+- Building and testing the software module for your laptop (replay mode)
+- This template folder contains everything you need to compile and run a C++ software component that uses OpenCV for image processing. We are using Docker to build and run - - the resulting binary.
+- use opendlv tool (from chalmers).
 
 
 Step 1: Assuming that you have a folder ~/recordings, where you have at least one .rec file from your experiments with Kiwi.
