@@ -180,7 +180,7 @@ int seconds = now->tm_sec;
   
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 string result = "j";
-//"time now "+strDate+"-"+strMonth+"-"+strday+"T"+strHour+":"+strMinutes+":" +strSeconds+"ts "+v+";... Mohammed Jawad Mofti";
+//"time now "+strDate+"-"+strMonth+"-"+strday+"T"+strHour+":"+strMinutes+":" +strSeconds+"ts "+v+";... Jawad Mofti";
 cv::putText(img, //target image
            result, //text
           cv::Point(500, 50), //top-left position
