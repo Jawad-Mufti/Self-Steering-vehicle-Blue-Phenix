@@ -126,7 +126,20 @@ int32_t main(int32_t argc, char **argv) {
              
               if ((ctArea2>300)&&(cordinateYellowX<380)){
               tresult =  MINOR_LEFT_TURNEX;
+               
 
+    //  if((ctArea2>300 && ctArea2<400) && (cordinateYellowX>250 && cordinateYellowX<400)){
+//   //  gsr.groundSteering(LEFT_TURN);
+//   //                                  od4.send(steerReq);
+//                                    tresult =  LEFT_TURN;
+//                                  //  std::cout << tresult << endl;
+//                                     //std::cout << "our left steeering = " << gsr.groundSteering() << std::endl;
+//  }
+   
+   
+// MINOR_LEFT_TURN3           
+               
+               
               } 
              
              
