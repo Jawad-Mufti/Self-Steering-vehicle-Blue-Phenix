@@ -124,7 +124,10 @@ int32_t main(int32_t argc, char **argv) {
             while (od4.isRunning()) {
              
              
-              if ((ctArea2>300)&&(cordinateYellowX<380)) 
+              if ((ctArea2>300)&&(cordinateYellowX<380)){
+              tresult =  MINOR_LEFT_TURNEX;
+
+              } 
              
              
               imshow( "imgColorSpace",contourImage );
