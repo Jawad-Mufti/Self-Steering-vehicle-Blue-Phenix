@@ -125,8 +125,9 @@ int32_t main(int32_t argc, char **argv) {
              
  if((ctArea2>400) && (cordinateYellowX<500)){
   
-  
-    //                                  od4.send(steerReq);
+    //  gsr.groundSteering(LEFT_TURN);
+
+    //     od4.send(steerReq);
 
  tresult =  LEFT_TURN;
 
