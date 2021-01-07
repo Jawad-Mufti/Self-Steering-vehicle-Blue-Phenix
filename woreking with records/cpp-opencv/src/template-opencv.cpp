@@ -124,6 +124,9 @@ int32_t main(int32_t argc, char **argv) {
             while (od4.isRunning()) {}
              
  if((ctArea2>400) && (cordinateYellowX<500)){
+  
+                                   //  std::cout << tresult << endl;
+
                                       //std::cout << "our left steeering = " << gsr.groundSteering() << std::endl;
 
  
