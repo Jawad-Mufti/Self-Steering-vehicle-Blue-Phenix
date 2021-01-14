@@ -53,8 +53,6 @@ https://git.chalmers.se/courses/dit638/students/group_15/-/jobs/27731
 
 passing new release :
 
-https://git.chalmers.se/courses/dit638/students/group_15/-/jobs/27729
-
 
 
 #### Authors
