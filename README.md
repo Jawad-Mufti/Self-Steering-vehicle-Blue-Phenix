@@ -31,7 +31,6 @@ Now, you can start the h264 decoder and webapp for replaying as follows (the act
 * Docker
 
 * cluon library (from chalmers)  more instructions to work with cluon and opendlv :  https://github.com/chalmers-revere/opendlv-device-ps3controller
-* C formatting tools
 * CMake 
 * Git
 * Visual Studio
@@ -47,6 +46,6 @@ The code will be run, tested and reviewed in feature branches in order to find a
 
 
 
-#### Authors
+#### Author
 
 *  Jawad Mofti
