@@ -39,7 +39,6 @@ Now, you can start the h264 decoder and webapp for replaying as follows (the act
 
 
 ### Addition of features
-During the weekly discussions, we will discuss what is to be added during the upcoming working week. Once agreed upon, the new tasks will be added to trello where the progress can be tracked.
 If a new feature is to be added on gitlab, the user will create a new branch to work on, to avoid merge conflicts in the master. The new features will be developed and tested until we feel they are safe to merge with the master.
 
 ### Fixing Bugs
