@@ -46,7 +46,6 @@ If a new feature is to be added on gitlab, the user will create a new branch to 
 The code will be run, tested and reviewed in feature branches in order to find any unexpected behavior. If any issues are found in the code we will notify the team for a discussion to take place. Then we will use the tools in Visual Studio to debug and discuss solutions in our upcoming meeting.
 
 ### Git Commit Message
-What it is about (written as a verb) || What the issue with the old code was || Where in the code it’s found || How the new code solves it
 
 ## Links to pipeline testing :
 
