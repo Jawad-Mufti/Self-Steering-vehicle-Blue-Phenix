@@ -9,7 +9,7 @@ With the use of OpenCV , C++ and cluon to process video image frames from a rec.
 - This project is most likly to only work on linux operating systems or any simulation of a linux system.
 - You need to install Docker for your platform
 - You need to install docker-compose
- - You have a recording file (.rec).
+ - You have a recording file (.rec) that could display a lane with boundaries of blue and yellow cones.
 - Building and testing the software module for your laptop (replay mode)
 - This template folder contains everything you need to compile and run a C++ software component that uses OpenCV for image processing. We are using Docker to build and run - - the resulting binary.
 - use opendlv tool (from chalmers).
