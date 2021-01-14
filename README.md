@@ -49,9 +49,6 @@ The code will be run, tested and reviewed in feature branches in order to find a
 
 failing test case in the master branch:
 
-https://git.chalmers.se/courses/dit638/students/group_15/-/jobs/27731
-
-passing new release :
 
 
 
