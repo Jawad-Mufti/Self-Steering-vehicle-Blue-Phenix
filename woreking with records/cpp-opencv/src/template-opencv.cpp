@@ -123,7 +123,13 @@ int32_t main(int32_t argc, char **argv) {
             // Endless loop; end the program by pressing Ctrl-C.
             while (od4.isRunning()) {}
          
- if(( ctArea2>400 ) && (cordinateYellowX<400)){}
+ if(( ctArea2>400 ) && (cordinateYellowX<400)){
+ 
+// gsr.groundSteering(MINOR_LEFT_TURN3);
+//                                   od4.send(steerReq);
+    std::tresult =  MINOR_LEFT_TURN3;
+ 
+ }
              
  if((ctArea2>400) && (cordinateYellowX<500)){
   
