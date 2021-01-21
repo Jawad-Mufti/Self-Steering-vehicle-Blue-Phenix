@@ -123,6 +123,10 @@ int32_t main(int32_t argc, char **argv) {
             // Endless loop; end the program by pressing Ctrl-C.
             while (od4.isRunning()) {}
          
+    
+         
+            if((ctArea2>50 && ctArea2<400) && (cordinateYellowX>250 && cordinateYellowX<400)){
+         
  if(( ctArea2>400 ) && (cordinateYellowX<400)){
  
 
