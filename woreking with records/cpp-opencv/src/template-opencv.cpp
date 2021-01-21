@@ -137,6 +137,12 @@ int32_t main(int32_t argc, char **argv) {
             
             }
          
+         cv::line(img, corners[1], corners[2], cv::Scalar(0, 0, 256));
+                    cv::line(img, corners[2], corners[3], cv::Scalar(0, 0, 256));
+                    cv::line(img, corners[3], corners[0], cv::Scalar(0, 0, 256));
+                    cordinateYellowX = corners[0].x;
+                    cordinateYellowY = corners[0].y;
+         
     
          
             if((ctArea2>50 && ctArea2<400) && (cordinateYellowX>250 && cordinateYellowX<400)){
