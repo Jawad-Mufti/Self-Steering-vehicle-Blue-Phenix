@@ -121,7 +121,12 @@ int32_t main(int32_t argc, char **argv) {
 
 
             // Endless loop; end the program by pressing Ctrl-C.
-            while (od4.isRunning()) {}
+            while (od4.isRunning()) {
+                // Wait for a notification of a new frame.
+                sharedMemory->wait();
+
+                // Lock the shared memory.
+                sharedMemory->lock();}
          
     
          
