@@ -136,7 +136,7 @@ int32_t main(int32_t argc, char **argv) {
                 sharedMemory->lock();
             
             }
-         
+         oundingBox.points(corners);
          cv::line(img, corners[1], corners[2], cv::Scalar(0, 0, 256));
                     cv::line(img, corners[2], corners[3], cv::Scalar(0, 0, 256));
                     cv::line(img, corners[3], corners[0], cv::Scalar(0, 0, 256));
