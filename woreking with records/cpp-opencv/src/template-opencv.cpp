@@ -122,11 +122,18 @@ int32_t main(int32_t argc, char **argv) {
 
             // Endless loop; end the program by pressing Ctrl-C.
             while (od4.isRunning()) {
+             cv::Mat WrappedMasked;
+                cv::Mat blurredimg;
+                cv::Mat carMask;
+
+                // Wait for a notification of a new frame.
                 // Wait for a notification of a new frame.
                 sharedMemory->wait();
 
                 // Lock the shared memory.
-                sharedMemory->lock();}
+                sharedMemory->lock();
+            
+            }
          
     
          
