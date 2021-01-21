@@ -126,6 +126,7 @@ int32_t main(int32_t argc, char **argv) {
     
          
             if((ctArea2>50 && ctArea2<400) && (cordinateYellowX>250 && cordinateYellowX<400)){
+             // gsr.groundSteering(MINOR_LEFT_TURN2);
          
  if(( ctArea2>400 ) && (cordinateYellowX<400)){
  
