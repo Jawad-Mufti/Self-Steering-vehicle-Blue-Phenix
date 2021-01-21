@@ -122,6 +122,8 @@ int32_t main(int32_t argc, char **argv) {
 
             // Endless loop; end the program by pressing Ctrl-C.
             while (od4.isRunning()) {
+              // OpenCV data structure to hold an image.
+                cv::Mat img;
              cv::Mat WrappedMasked;
                 cv::Mat blurredimg;
                 cv::Mat carMask;
