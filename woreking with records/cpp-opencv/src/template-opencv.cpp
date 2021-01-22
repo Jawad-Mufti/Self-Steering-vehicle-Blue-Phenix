@@ -137,6 +137,8 @@ int32_t main(int32_t argc, char **argv) {
             
             }
          
+                cv::drawContours( contourImage, contourYellow, (int)j, color );
+
                //rectangle( contourImage, boundRect[j].tl(), boundRect[j].br(), color, 2 );
 
             cv::Point2f corners[4];
