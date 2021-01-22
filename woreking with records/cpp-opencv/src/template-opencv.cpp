@@ -136,7 +136,9 @@ int32_t main(int32_t argc, char **argv) {
                 sharedMemory->lock();
             
             }
-         
+          //  calculate the area of the contour 
+      float ctArea2 = (float)cv::contourArea(contourYellow[j]);
+        Scalar color( 30,255,255);
                 cv::drawContours( contourImage, contourYellow, (int)j, color );
 
                //rectangle( contourImage, boundRect[j].tl(), boundRect[j].br(), color, 2 );
