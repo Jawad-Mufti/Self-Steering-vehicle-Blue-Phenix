@@ -139,7 +139,10 @@ int32_t main(int32_t argc, char **argv) {
           //  calculate the area of the contour 
          
          
-         
+  //////////////////////////////////////////////////////////////////////////////////////////////////////
+   
+  // this loop goes through yellow contour
+  
     for (std::size_t j = 0, maxYellow = contourYellow.size(); j != maxYellow; ++j)
                                                           {
       float ctArea2 = (float)cv::contourArea(contourYellow[j]);
