@@ -137,6 +137,11 @@ int32_t main(int32_t argc, char **argv) {
             
             }
           //  calculate the area of the contour 
+         
+         
+         
+    for (std::size_t j = 0, maxYellow = contourYellow.size(); j != maxYellow; ++j)
+                                                          {
       float ctArea2 = (float)cv::contourArea(contourYellow[j]);
         Scalar color( 30,255,255);
                 cv::drawContours( contourImage, contourYellow, (int)j, color );
@@ -191,7 +196,7 @@ cout << tresult << endl;
 //                                    tresult =  LEFT_TURN;
 //                                  //  std::cout << tresult << endl;
 //                                     //std::cout << "our left steeering = " << gsr.groundSteering() << std::endl;
-//  }
+  }
    
    
 // MINOR_LEFT_TURN3           
