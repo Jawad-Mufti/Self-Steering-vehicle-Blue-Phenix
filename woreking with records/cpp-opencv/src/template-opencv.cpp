@@ -138,6 +138,13 @@ int32_t main(int32_t argc, char **argv) {
             }
           //  calculate the area of the contour 
          
+         ////// fix only number 1
+
+
+  
+
+
+  }
          
   //////////////////////////////////////////////////////////////////////////////////////////////////////
    
