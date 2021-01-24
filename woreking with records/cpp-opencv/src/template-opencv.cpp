@@ -141,7 +141,8 @@ int32_t main(int32_t argc, char **argv) {
          ////// fix only number 1
 
 
-  
+  // gsr.groundSteering(RIGHT_TURN_new); 
+//                                   od4.send(steerReq);
                                tresult =  RIGHT_TURN_new;
                                    //std::cout << tresult << endl;
     
