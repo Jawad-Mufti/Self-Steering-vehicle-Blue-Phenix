@@ -138,6 +138,9 @@ int32_t main(int32_t argc, char **argv) {
             }
           //  calculate the area of the contour 
          
+         
+          if((  ctArea<400 &&ctArea>300 ) && (cordinateBlueX>150&&cordinateBlueX<180)){
+//cordinateBlueX>150
          ////// fix only number 1
 
 
