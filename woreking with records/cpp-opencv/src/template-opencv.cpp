@@ -137,7 +137,8 @@ int32_t main(int32_t argc, char **argv) {
             
             }
           //  calculate the area of the contour 
-         
+         //150 and 180
+  //  gsr.groundSteering(MINOR_RIGHT_TURN2);
                                            od4.send(steerReq);
                               tresult = MINOR_RIGHT_TURN2;
                                    //std::cout << tresult << endl;   
