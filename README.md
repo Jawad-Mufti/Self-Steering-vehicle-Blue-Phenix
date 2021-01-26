@@ -11,8 +11,8 @@ With the use of OpenCV , C++ and cluon to process video image frames from a rec.
 - You need to install docker-compose
  - You have a recording file (.rec) that could display a lane with boundaries of blue and yellow cones.
 - Building and testing the software module for your laptop (replay mode)
-- This template folder contains everything you need to compile and run a C++ software component that uses OpenCV for image processing. We are using Docker to build and run - - the resulting binary.
-- use opendlv tool (from chalmers).
+- This template folder contains everything you need to compile and run a C++ software component that uses OpenCV for image processing. We are using Docker to build and run the resulting binary.
+- use opendlv tool https://github.com/chalmers-revere/opendlv.
 
 
 Step 1: Assuming that you have a folder ~/recordings, where you have at least one .rec file from your experiments with Kiwi.
