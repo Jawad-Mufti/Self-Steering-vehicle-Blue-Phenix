@@ -137,6 +137,13 @@ int32_t main(int32_t argc, char **argv) {
             
             }
           //  calculate the area of the contour 
+// if the area of the blue is bigger than 400 and x value is more than 290 then turn right
+ if ((ctArea> 100)&& (cordinateBlueX>=350)){
+
+  //  gsr.groundSteering(RIGHT_TURN);
+  //
+                                
+                                    }
          if ((ctArea> 50 && ctArea<400)&& (cordinateBlueX>160 && cordinateBlueX<350)){
          //150 and 180
   //  gsr.groundSteering(MINOR_RIGHT_TURN2);
