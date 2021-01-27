@@ -142,9 +142,17 @@ int32_t main(int32_t argc, char **argv) {
 
   //  gsr.groundSteering(RIGHT_TURN);
   //
+    //  gsr.groundSteering(MINOR_RIGHT_TURN);
+  //                                  od4.send(steerReq);
+
+tresult = MINOR_RIGHT_TURN ;
+                                //   std::cout << tresult << endl;
+
+                                
+   // std::cout << " Area: " << ctArea << std::endl;
                                 
                                     }
-         if ((ctArea> 50 && ctArea<400)&& (cordinateBlueX>160 && cordinateBlueX<350)){
+  if ((ctArea> 50 && ctArea<400)&& (cordinateBlueX>160 && cordinateBlueX<350)){
          //150 and 180
   //  gsr.groundSteering(MINOR_RIGHT_TURN2);
                                             //   od4.send(steerReq);
@@ -152,7 +160,7 @@ int32_t main(int32_t argc, char **argv) {
                                    //std::cout << tresult << endl;   
          }
 
-          if((  ctArea<400 &&ctArea>300 ) && (cordinateBlueX>150&&cordinateBlueX<180)){
+    if((  ctArea<400 &&ctArea>300 ) && (cordinateBlueX>150&&cordinateBlueX<180)){
 //cordinateBlueX>150
          ////// fix only number 1
 
