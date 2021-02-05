@@ -136,6 +136,9 @@ int32_t main(int32_t argc, char **argv) {
                 sharedMemory->lock();
             
             }
+         ordinateBlueX = corners[0].x;
+                    cordinateBlueY = corners[0].y;
+
           //  calculate the area of the contour 
 // if the area of the blue is bigger than 400 and x value is more than 290 then turn right
  if ((ctArea> 100)&& (cordinateBlueX>=350)){
