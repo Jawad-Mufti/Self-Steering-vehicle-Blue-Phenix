@@ -136,9 +136,12 @@ int32_t main(int32_t argc, char **argv) {
                 sharedMemory->lock();
             
             }
-           cv::line(img, corners[2], corners[3], cv::Scalar(0, 0, 256));
-                    cv::line(img, corners[3], corners[0], cv::Scalar(0, 0, 256));
-                    cordinateBlueX = corners[0].x;
+         
+         cv::line(img, corners[0], corners[1], cv::Scalar(0, 0, 256));
+         cv::line(img, corners[1], corners[2], cv::Scalar(0, 0, 256));
+         cv::line(img, corners[2], corners[3], cv::Scalar(0, 0, 256));
+         cv::line(img, corners[3], corners[0], cv::Scalar(0, 0, 256));
+          cordinateBlueX = corners[0].x;
          ordinateBlueX = corners[0].x;
                     cordinateBlueY = corners[0].y;
 
