@@ -136,7 +136,9 @@ int32_t main(int32_t argc, char **argv) {
                 sharedMemory->lock();
             
             }
-         
+           cv::RotatedRect boundingBox = cv::minAreaRect(contourBlue[i]);
+
+                    // draw the rotated rect
           cv::Point2f corners[4];
 
           boundingBox.points(corners);
