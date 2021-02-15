@@ -136,7 +136,8 @@ int32_t main(int32_t argc, char **argv) {
                 sharedMemory->lock();
             
             }
-        
+        float ctArea = (float)cv::contourArea(contourBlue[i]);
+        Scalar color( 255,255,255);
         cv::drawContours( contourImage, contourBlue, (int)i, color );
       //rectangle( contourImage, boundRect[i].tl(), boundRect[i].br(), color, 2 );
            cv::RotatedRect boundingBox = cv::minAreaRect(contourBlue[i]);
