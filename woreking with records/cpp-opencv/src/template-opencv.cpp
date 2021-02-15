@@ -87,8 +87,8 @@ int32_t main(int32_t argc, char **argv) {
 
 
         // Attach to the shared memory.
-        std::unique_ptr<cluon::SharedMemory> sharedMemory{new cluon::SharedMemory{NAME}};
-        if (sharedMemory && sharedMemory->valid()) {
+      std::unique_ptr<cluon::SharedMemory> sharedMemory{new cluon::SharedMemory{NAME}};
+       if (sharedMemory && sharedMemory->valid()) {
             std::clog << argv[0] << ": Attached to shared memory '" << sharedMemory->name() << " (" << sharedMemory->size() << " bytes)." << std::endl;
 
             // Interface to a running OpenDaVINCI session where network messages are exchanged.
@@ -100,18 +100,18 @@ int32_t main(int32_t argc, char **argv) {
 
                 // The envelope data structure provide further details, such as sampleTimePoint as shown in this test case:
                 // https://github.com/chrberger/libcluon/blob/master/libcluon/testsuites/TestEnvelopeConverter.cpp#L31-L40
-                 std::lock_guard<std::mutex> lck(gsrMutex);
-                 gsr = cluon::extractMessage<opendlv::proxy::GroundSteeringRequest>(std::move(env));
+                std::lock_guard<std::mutex> lck(gsrMutex);
+                gsr = cluon::extractMessage<opendlv::proxy::GroundSteeringRequest>(std::move(env));
 
 
 
 
-               /// std::cout << "lambda: groundSteering = " << gsr.groundSteering() << std::endl;
+    /// std::cout << "lambda: groundSteering = " << gsr.groundSteering() << std::endl;
 
    tstampz = env.sampleTimeStamp().seconds();
 
 
-                              // std::cout << env.sampleTimeStamp().seconds() << std::endl;
+          // std::cout << env.sampleTimeStamp().seconds() << std::endl;
          // std::stringstream ss;
            
 
@@ -120,9 +120,9 @@ int32_t main(int32_t argc, char **argv) {
             od4.dataTrigger(opendlv::proxy::GroundSteeringRequest::ID(), onGroundSteeringRequest);
 
 
-            // Endless loop; end the program by pressing Ctrl-C.
+            //Endless loop; end the program by pressing Ctrl-C.
             while (od4.isRunning()) {
-              // OpenCV data structure to hold an image.
+              //OpenCV data structure to hold an image.
                 cv::Mat img;
              cv::Mat WrappedMasked;
                 cv::Mat blurredimg;
@@ -136,6 +136,9 @@ int32_t main(int32_t argc, char **argv) {
                 sharedMemory->lock();
             
             }
+        
+        cv::drawContours( contourImage, contourBlue, (int)i, color );
+      //rectangle( contourImage, boundRect[i].tl(), boundRect[i].br(), color, 2 );
            cv::RotatedRect boundingBox = cv::minAreaRect(contourBlue[i]);
 
                     // draw the rotated rect
