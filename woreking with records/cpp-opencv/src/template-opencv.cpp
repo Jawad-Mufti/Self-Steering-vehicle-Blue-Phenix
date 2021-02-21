@@ -136,7 +136,8 @@ int32_t main(int32_t argc, char **argv) {
                 sharedMemory->lock();
             
             }
-        
+         opendlv::proxy::GroundSteeringRequest steerReq;
+
           // this loop goes through blue contour
 float tresult = 0;
         
