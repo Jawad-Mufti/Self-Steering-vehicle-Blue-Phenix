@@ -137,7 +137,8 @@ int32_t main(int32_t argc, char **argv) {
             
             }
         
-        
+          // this loop goes through blue contour
+float tresult = 0;
         
          for (std::size_t i = 0, maxBlue = contourBlue.size(); i != maxBlue; ++i)
             {
