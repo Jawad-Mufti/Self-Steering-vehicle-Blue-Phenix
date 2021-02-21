@@ -136,6 +136,11 @@ int32_t main(int32_t argc, char **argv) {
                 sharedMemory->lock();
             
             }
+        
+        
+        
+         for (std::size_t i = 0, maxBlue = contourBlue.size(); i != maxBlue; ++i)
+            {
         float ctArea = (float)cv::contourArea(contourBlue[i]);
         Scalar color( 255,255,255);
         cv::drawContours( contourImage, contourBlue, (int)i, color );
