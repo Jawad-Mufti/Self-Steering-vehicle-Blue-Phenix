@@ -136,6 +136,8 @@ int32_t main(int32_t argc, char **argv) {
                 sharedMemory->lock();
             
             }
+        vector<Point2f>centers2( contourYellow.size() );
+                 vector<float>radius2( contourYellow.size() );
         
         
 cv::Mat contourImage(img.size(), CV_8UC3, cv::Scalar(0,0,0)); 
