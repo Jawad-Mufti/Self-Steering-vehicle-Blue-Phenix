@@ -136,6 +136,10 @@ int32_t main(int32_t argc, char **argv) {
                 sharedMemory->lock();
             
             }
+        
+        
+cv::Mat contourImage(img.size(), CV_8UC3, cv::Scalar(0,0,0)); 
+              
          opendlv::proxy::GroundSteeringRequest steerReq;
 
           // this loop goes through blue contour
