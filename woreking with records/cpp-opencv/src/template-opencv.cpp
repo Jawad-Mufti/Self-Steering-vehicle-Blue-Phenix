@@ -227,7 +227,7 @@ tresult = MINOR_RIGHT_TURN ;
              // gsr.groundSteering(MINOR_LEFT_TURN2);
          //                                   od4.send(steerReq);
              tresult =  MINOR_LEFT_TURN2;
-                                 //  std::cout << tresult << endl;
+                                 //  std::cout << tresult << endl;.............
  }
 
  if(( ctArea2>400 ) && (cordinateYellowX<400)){
