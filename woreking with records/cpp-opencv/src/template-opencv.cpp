@@ -136,7 +136,9 @@ int32_t main(int32_t argc, char **argv) {
                 sharedMemory->lock();
             
             }
-        
+                         vector<vector<Point>> contourYellow;
+                findContours(imgColorSpace, contourYellow, CV_RETR_EXTERNAL, CHAIN_APPROX_SIMPLE);
+                 vector<vector<Point>> contours_poly2( contourYellow.size() );
                          vector<Rect> boundRect2( contourYellow.size() );
         vector<Point2f>centers2( contourYellow.size() );
                  vector<float>radius2( contourYellow.size() );
