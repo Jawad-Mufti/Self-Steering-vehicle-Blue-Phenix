@@ -136,6 +136,8 @@ int32_t main(int32_t argc, char **argv) {
                 sharedMemory->lock();
             
             }
+        
+                         vector<Rect> boundRect2( contourYellow.size() );
         vector<Point2f>centers2( contourYellow.size() );
                  vector<float>radius2( contourYellow.size() );
         
