@@ -2,7 +2,7 @@
 
 ### Summary
 the project is built using docker.
-With the use of OpenCV , C++ and cluon to process video image frames from a rec. file that is supposed to be taken from a mounted camera on the car, which records the lane when the car is driving for the porpose of detecting the lane and the boundaries. these data will be prosess and used in my algorithm for the porpose of coming up with the right steering angles per frame to perform self-automation in steering.
+With the use of OpenCV , C++ and cluon to process video image frames from a rec. file that is supposed to be taken from a mounted camera on the car, which records the lane when the car is driving for the porpose of detecting the lane and the boundaries. these data will be prosess and used in my algorithm for the porpose of coming up with the right steering angles per frame to perform self-automation in steering..
 
 ### Prerequisites:
 
