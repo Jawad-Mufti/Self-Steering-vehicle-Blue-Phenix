@@ -136,6 +136,12 @@ int32_t main(int32_t argc, char **argv) {
                 sharedMemory->lock();
             
             }
+        
+        
+
+ 
+
+                 cv::inRange(yellow, cv::Scalar(15,0,0), cv::Scalar(78,255,255), imgColorSpace);
                          vector<vector<Point>> contourYellow;
                 findContours(imgColorSpace, contourYellow, CV_RETR_EXTERNAL, CHAIN_APPROX_SIMPLE);
                  vector<vector<Point>> contours_poly2( contourYellow.size() );
