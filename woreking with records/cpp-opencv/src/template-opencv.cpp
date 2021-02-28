@@ -140,6 +140,8 @@ int32_t main(int32_t argc, char **argv) {
         
 
           
+                yellow.convertTo(yellow, CV_8U);
+
                 cv::Mat imgColorSpaceYellow;
  
 
