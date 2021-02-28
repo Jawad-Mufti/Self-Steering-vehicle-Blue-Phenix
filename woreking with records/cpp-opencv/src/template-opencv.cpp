@@ -139,6 +139,7 @@ int32_t main(int32_t argc, char **argv) {
         
         
 
+           cvtColor(img, yellow, cv::COLOR_BGR2HSV);
           
                 yellow.convertTo(yellow, CV_8U);
 
