@@ -138,10 +138,9 @@ int32_t main(int32_t argc, char **argv) {
             }
         
         
-        
+         
+               vector<Point2f>centers( contourBlue.size() );
                     
-
-   
                 vector<float>radius( contourBlue.size() ); 
  
            cv::Mat yellow;
