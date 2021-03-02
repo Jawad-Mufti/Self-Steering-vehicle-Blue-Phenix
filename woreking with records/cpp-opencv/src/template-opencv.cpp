@@ -138,6 +138,7 @@ int32_t main(int32_t argc, char **argv) {
             }
         
         
+               vector<Rect> boundRect( contourBlue.size() );
          
                vector<Point2f>centers( contourBlue.size() );
                     
