@@ -136,7 +136,7 @@ int32_t main(int32_t argc, char **argv) {
                 sharedMemory->lock();
             
             }
-        
+        vector<vector<Point>> contours_poly( contourBlue.size() );
         
                vector<Rect> boundRect( contourBlue.size() );
          
